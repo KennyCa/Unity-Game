@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Brianna'sMaze.unity
+    guid: 37175590ffcd0974890ad1534d2df70f
+  - enabled: 0
+    path: Assets/loadScreen.unity
+    guid: b6dc44e71562b72439b0253edded24e2
