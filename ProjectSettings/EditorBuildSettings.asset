@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/main.unity
-    guid: 7ca93c0e3565b5940b0740497fe92332
-  - enabled: 1
-    path: Assets/kenny.unity
-    guid: 817c85b83cc9893498c3a800e5d1d424
+  - enabled: 0
+    path: Assets/Brianna'sMaze.unity
+    guid: 37175590ffcd0974890ad1534d2df70f
+  - enabled: 0
+    path: Assets/loadScreen.unity
+    guid: b6dc44e71562b72439b0253edded24e2

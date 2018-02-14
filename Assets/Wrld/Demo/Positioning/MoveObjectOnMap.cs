@@ -15,7 +15,6 @@ public class MoveObjectOnMap: MonoBehaviour
     {
         Api.Instance.GeographicApi.RegisterGeographicTransform(coordinateFrame);
         StartCoroutine(Example());
-
     }
 
     IEnumerator Example()
@@ -23,7 +22,7 @@ public class MoveObjectOnMap: MonoBehaviour
         Api.Instance.CameraApi.MoveTo(startPosition, distanceFromInterest: 1000, headingDegrees: 0, tiltDegrees: 45);
         coordinateFrame.SetPosition(startPosition);
         box.SetParent(coordinateFrame.transform);
-        box.localPosition = new Vector3(10.0f, 80.0f, 10.0f);
+        box.localPosition = new Vector3(0.0f, 80.0f, 0.0f);
         box.localRotation = Quaternion.identity;
 
         var direction = 1.0f;
